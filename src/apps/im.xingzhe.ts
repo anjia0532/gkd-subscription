@@ -9,7 +9,7 @@ export default defineGkdApp({
       name: '功能类 - 直接开始运动',
       fastQuery: true,
       actionMaximum: 1,
-      order: 10,
+      order: 1,
       actionDelay: 1000,
       matchTime: 5000,
       resetMatch: 'app',

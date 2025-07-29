@@ -9,7 +9,7 @@ export default defineGkdApp({
       name: '功能类 - 快捷打卡',
       matchRoot: true,
       actionMaximum: 1,
-      order: 10,
+      order: 1,
       matchTime: 10000,
       resetMatch: 'app',
       rules: [

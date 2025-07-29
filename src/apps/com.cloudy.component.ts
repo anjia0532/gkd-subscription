@@ -9,7 +9,7 @@ export default defineGkdApp({
       name: '功能类 - 直接进入远控',
       fastQuery: true,
       actionMaximum: 3,
-      order: 10,
+      order: 1,
       matchTime: 10000,
       forcedTime: 10000,
       priorityTime: 10000,
