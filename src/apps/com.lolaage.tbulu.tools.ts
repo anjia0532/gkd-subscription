@@ -56,7 +56,7 @@ export default defineGkdApp({
             'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
           ],
           matches:
-            '@ImageView[childCount=0][width<100 && height<100] <<n < ViewGroup +2 ViewGroup >3 [text="广告"][visibleToUser=true]',
+            '@ImageView[childCount=0][width<100 && height<100] <<n ViewGroup +2 ViewGroup >3 [text="广告"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/0ed488e1-f0d8-4c5f-a507-af9c2cedd2a1',
           snapshotUrls: 'https://i.gkd.li/i/16812345',
         },
