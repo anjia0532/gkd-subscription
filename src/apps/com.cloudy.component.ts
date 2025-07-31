@@ -5,8 +5,8 @@ export default defineGkdApp({
   name: '广汽传祺',
   groups: [
     {
-      key: 105,
-      name: '功能类 - 直接进入远控',
+      key: 9,
+      name: '功能类-直接进入爱车界面',
       fastQuery: true,
       actionMaximum: 3,
       order: 1,

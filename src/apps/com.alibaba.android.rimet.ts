@@ -5,9 +5,8 @@ export default defineGkdApp({
   name: '钉钉',
   groups: [
     {
-      key: 1,
-      name: '功能类 - 快捷打卡',
-      desc: '功能类 - 快捷打卡',
+      key: 9,
+      name: '功能类-快捷打卡',
       matchRoot: true,
       actionMaximum: 1,
       order: 10,

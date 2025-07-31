@@ -5,8 +5,8 @@ export default defineGkdApp({
   name: '行者',
   groups: [
     {
-      key: 1,
-      name: '功能类 - 直接开始运动',
+      key: 9,
+      name: '功能类-开始运动',
       fastQuery: true,
       actionMaximum: 1,
       order: 1,
