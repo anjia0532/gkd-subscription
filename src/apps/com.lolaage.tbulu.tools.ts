@@ -44,7 +44,6 @@ export default defineGkdApp({
         {
           key: 1,
           fastQuery: true,
-          activityIds: 'com.lolaage.tbulu.tools.ui.activity.main.MainActivity',
           matches: '[vid="ivClose"]',
           snapshotUrls: 'https://i.gkd.li/i/14952807',
         },
