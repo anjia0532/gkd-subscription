@@ -16,8 +16,6 @@ export default defineGkdApp({
         {
           key: 1,
           fastQuery: true,
-          activityIds:
-            'com.alibaba.lightapp.runtime.ariver.TheOneActivityMainTask',
           matches: '[vid="home_app_item" && clickable=true && desc="工作台"]',
         },
         {
@@ -31,8 +29,8 @@ export default defineGkdApp({
             'com.alibaba.lightapp.runtime.ariver.TheOneActivityMainTask',
           matches: '[vid="common_webview" && clickable=true]',
           position: {
-            top: 'height * 0.52',
-            left: 'width * 0.126',
+            top: 'height * 0.400',
+            left: 'width * 0.130',
           },
         },
       ],
