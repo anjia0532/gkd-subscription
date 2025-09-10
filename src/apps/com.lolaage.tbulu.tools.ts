@@ -75,6 +75,10 @@ export default defineGkdApp({
           matches: '[text="发送通知"] + * >3 [text="取消"]',
           snapshotUrls: 'https://i.gkd.li/i/14952803',
         },
+        {
+          activityIds: 'com.lolaage.tbulu.tools.ui.activity.WelcomeActivity',
+          matches: '[text="取消授权" && clickable=true]',
+        },
       ],
     },
   ],
