@@ -29,7 +29,7 @@ export default defineGkdApp({
             'com.alibaba.lightapp.runtime.ariver.TheOneActivityMainTask',
           matches: '[vid="common_webview" && clickable=true]',
           position: {
-            top: 'height * 0.400',
+            top: 'height * 0.320',
             left: 'width * 0.130',
           },
         },
