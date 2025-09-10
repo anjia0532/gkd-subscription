@@ -29,10 +29,6 @@ export default defineGkdApp({
           name: '腾讯广告',
           fastQuery: true,
           forcedTime: 10000,
-          activityIds: [
-            'com.lolaage.tbulu.tools.ui.activity.WelcomeActivity',
-            'com.lolaage.tbulu.tools.ui.activity.main.MainActivity',
-          ],
           matches:
             '@ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < FrameLayout[childCount=1][text=null][desc=null][id=null] <2 FrameLayout[childCount=5] + FrameLayout[childCount=2] > [text^="立即" || text="查看详情" || text="了解更多" || text="去逛逛" || text="去微信看看" || text$="应用" || text="进入小程序" || text="领取优惠" || text="跳转微信"]',
           snapshotUrls: [
@@ -50,10 +46,6 @@ export default defineGkdApp({
         {
           key: 2,
           forcedTime: 10000,
-          activityIds: [
-            'com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoActivity',
-            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
-          ],
           matches:
             '@ImageView[childCount=0][width<100 && height<100] <<n ViewGroup +2 ViewGroup >3 [text="广告"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/0ed488e1-f0d8-4c5f-a507-af9c2cedd2a1',
