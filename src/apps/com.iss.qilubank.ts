@@ -1,0 +1,37 @@
+import { defineGkdApp } from '@gkd-kit/define';
+
+export default defineGkdApp({
+  id: 'com.iss.qilubank',
+  name: '齐鲁银行',
+  groups: [
+    {
+      key: 1,
+      name: '局部广告',
+      fastQuery: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          key: 0,
+          name: '右侧悬浮广告关闭',
+          matches: '[vid="right_float_close"]',
+          snapshotUrls: [],
+        },
+        {
+          key: 1,
+          name: '通用广告关闭',
+          matches: '[vid="ad_close" || vid="close_ad" || vid="iv_close"]',
+          snapshotUrls: [],
+        },
+        {
+          key: 2,
+          name: '弹窗广告关闭',
+          matches:
+            '[vid="dialog_close" || vid="popup_close" || vid="btn_close"]',
+          snapshotUrls: [],
+        },
+      ],
+    },
+  ],
+});
